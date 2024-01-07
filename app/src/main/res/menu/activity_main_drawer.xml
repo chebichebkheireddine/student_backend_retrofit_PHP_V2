@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addEditUser"
+            android:icon="@drawable/baseline_person_add_24"
+            android:title="@string/menu_addEditUser" />
+        <item
+            android:id="@+id/nav_viewUsers"
+            android:icon="@drawable/baseline_group_24"
+            android:title="@string/menu_viewUsers" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
+

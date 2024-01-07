@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Student Class</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Student Management</string>
+    <string name="nav_header_subtitle">Khiro.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_addEditUser">Add/Edit Student</string>
+    <string name="menu_viewUsers">View Student</string>
+    <string name="menu_logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="lblLoginTitle">Login</string>
+    <string name="lblEmail">Enter Email:</string>
+    <string name="lblPassword">Enter Password:</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="btnClose">Close</string>
+
+
+    <!-- FRAGMENT ADD/EDIT USER -->
+    <string name="lblFullNme">Full Name:</string>
+    <string name="lblUEmail">Email:</string>
+    <string name="lblUsertype">User Type:</string>
+    <string name="btnAdd">Add User</string>
+    <string name="btnUpdate">Update User</string>
+    <string name="btnDelete">Delete User</string>
+    <string name="btnClear">Clear Fields</string>
+
+    <string-array name="usertypes">
+        <item>ADMINISTRATOR</item>
+        <item>USER</item>
+    </string-array>
+
+
+    <!--data_users.xml -->
+    <string name="lblUserid">Student ID:</string>
+    <string name="lblVUserid">12345</string>
+    <string name="lblVFullName">Test Student</string>
+    <string name="lblVEmail">test@email.com</string>
+    <string name="lblVUserType">Student</string>
+
+    <!--fragment_viewusers.xml -->
+    <string name="lblSearch">Search String (StudentID, Full Name or Email):</string>
+    <string name="btnSearch">Search</string>
+
+    <!--fragment_logout.xml-->
+    <string name="lblChangePassword">Change Password</string>
+    <string name="lblOldPassword">Enter Old Password:</string>
+    <string name="lblNewPassword">Enter New Password:</string>
+    <string name="lblConfirmPassword">Confirm Password:</string>
+    <string name="btnChangePassword">Change Password</string>
+    <string name="btnLogout">Logout</string>
+</resources>
+

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Users Management</title>
+    </head>
+    <body>
+        <form name = "Users" method="post" action = "/android/users.php">
+             <label>Enter user id:</label><br>
+            <input type="number" name="userid" /><br><br>
+            <label>Enter Full Name:</label><br>
+            <input type="text" name="fullname" /><br><br>
+            <label>Enter Email:</label><br>
+            <input type="email" name="email" /><br><br>
+            <label>Select User Type:</label><br>
+            <select name="usertype">
+                <option value="ADMINISTRATOR">ADMINISTRATOR</option>
+                <option value="USER">USER</option>
+            </select><br><br>
+            <button type="submit" name="add">Add</button>
+            <button type="submit" name="update">Update</button>
+            <button type="submit" name="delete">Delete</button>
+            <button type="submit" name="search" value ="2">Search</button>
+            <button type="submit" name="showall" >Show All</button>
+
+        </form>
+    </body>
+</html>
